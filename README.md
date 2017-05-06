@@ -2,6 +2,9 @@
 
 Arrayie is a library which contains tools for working with Array in Ruby. 
 
+## Requirements
+Ruby >= 2.4
+
 ## Installation
 
 ### RubyGems
@@ -37,6 +40,12 @@ flattened_array = array_utils.flatten(input_array)
 
 puts flattened_array
 ```
+
+## Tests
+To run the tests:
+````
+bundle exec rake
+````
 
 ## License
 
